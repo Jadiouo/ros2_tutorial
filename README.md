@@ -23,9 +23,10 @@ source install/setup.bash
 # 終端機 1
 ros2 run ros2_tutorial talker
 
-# 終端機 2（listener 尚未加進 setup.py 的 entry_points，先直接用模組執行）
-python3 -m ros2_tutorial.listener
+# 終端機 2
+ros2 run ros2_tutorial listener
 ```
 
-要讓 `ros2 run ros2_tutorial listener` 可用，在 `setup.py` 的 `console_scripts` 加上
-`'listener = ros2_tutorial.listener:main'` 後重新 `colcon build`。
+## 授權
+
+Apache-2.0（見 `src/ros2_tutorial/LICENSE`）

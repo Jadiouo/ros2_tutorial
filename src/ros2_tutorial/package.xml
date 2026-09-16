@@ -3,8 +3,8 @@
 <package format="3">
   <name>ros2_tutorial</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="lexho@todo.todo">lexho</maintainer>
+  <description>Minimal ROS 2 Jazzy talker/listener package (ament_python) used to learn the publish/subscribe workflow</description>
+  <maintainer email="Jadiouo@users.noreply.github.com">Jadiouo</maintainer>
   <license>Apache-2.0</license>
 
   <depend>rclpy</depend>

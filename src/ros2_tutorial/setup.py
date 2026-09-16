@@ -13,9 +13,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='lexho',
-    maintainer_email='lexho@todo.todo',
-    description='TODO: Package description',
+    maintainer='Jadiouo',
+    maintainer_email='Jadiouo@users.noreply.github.com',
+    description='Minimal ROS 2 Jazzy talker/listener package (ament_python)',
     license='Apache-2.0',
     extras_require={
         'test': [
@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'talker = ros2_tutorial.talker:main',
+            'listener = ros2_tutorial.listener:main',
         ],
     },
 )
