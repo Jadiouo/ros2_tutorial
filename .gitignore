@@ -1,0 +1,14 @@
+# colcon workspace outputs
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
